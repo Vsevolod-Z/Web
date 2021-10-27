@@ -64,6 +64,9 @@ header {
     width: 40px;
 }
 
+.purchases{
+    background-color: #85A000;
+}
 .logo a:visited{
     color: black;
 }
