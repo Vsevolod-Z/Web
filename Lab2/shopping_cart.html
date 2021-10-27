@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Заказ</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="plane">
+            <a href="index.html">ЗООМАГАЗИН "hот DOG"</a>
+        </div>
+        <form class="search" action="#">
+            <div class="dropWrap">
+                <div class="browse">
+                    <span>Поиск &#9660;</span>
+                </div>
+                <div class="dropdown">
+                    <li>Гиппопотам</li>
+                    <li>Бегемот</li>
+                    <li>Hippopótam</li>
+                    <li style="margin-bottom:0">Дичь</li>
+                </div>
+            </div>
+            <input type="text" placeholder="Из чего лучше делать хот-доги?" name="search">
+            <button class="searchButton" type="submit"></button>
+        </form>
+        <div class="shopIcon"><a href="shopping_cart.html"></a></div>
+        <div class="account dropWrap">
+            <div style="display:flex">
+                <p>Аккаунт &#9660;</p>
+            </div>
+            <div class="dropdown">
+                <li>Профиль</li>
+                <li>Питомник</li>
+                <li>Настройки</li>
+                <li style="margin-bottom:0">Выйти</li>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="topnav">
+                <a href="index.html">Главная</a>
+                <a href="shopping_cart.html">Заказы</a>
+            </div>
+        </nav>
+        <div class="startPanel">
+            <span class="spMain">Новые поступления</span>
+            <span class="sp">Все / не все / <span class="spSpec" style="color: lightcoral">новые</span></span>
+        </div>
+        <div class="Itemposition">
+            <div class="colNames">
+                <span class="colText" style="margin-right: 0; margin-left: 0; width: 500px; text-align: left">Детали билета</span>
+                <span class="colText">Цена</span>
+                <span class="colText">Количество</span>
+                <span class="colText">Сумма</span>
+                <span class="colText" style="margin-right: 0">Действие</span>
+            </div>
+            <div class="item">
+                <div class="mainBlock">
+                    <img style="width: 100px; height: 115px" src="images/pos6.jpg" alt="item">
+                    <div class="details">
+                        <span class="d1">Единорог</span>
+                    </div>
+                </div>
+                
+                <span class="colText">19000000$</span>
+                <span class="colText">2</span>
+                <span class="colText">38000000$</span>
+                <img class="deleteIcon" src="images/delete.png" alt="delete">
+            </div>
+            <div class="lineBreak"></div>
+            <div class="item">
+                <div class="mainBlock">
+                    <img style="width: 100px; height: 115px" src="images/pos4.jpg" alt="item">
+                    <div class="details">
+                        <span class="d1">Толстый кiт</span>
+                    </div>
+                </div>
+                <span class="colText">170$</span>
+                <span class="colText">3</span>
+                <span class="colText">510$</span>
+                <img class="deleteIcon" src="images/delete.png" alt="delete">
+            </div>
+            <div class="lineBreak"></div>
+            <div class="item" style="border-bottom: 1px solid gainsboro;">
+                <div class="mainBlock">
+                    <img style="width: 100px; height: 115px" src="images/pos5.jpg" alt="item">
+                    <div class="details">
+                        <span class="d1">Мелководный жопокусь</span>
+                    </div>
+                </div>
+                <span class="colText">1800000$</span>
+                <span class="colText">3</span>
+                <span class="colText">5400000$</span>
+                <img class="deleteIcon" src="images/delete.png" alt="delete">
+            </div>
+        </div>
+        <div class="shopButtons">
+            <div class="shopButton" style="margin-left:230px"><span>Очистить</span></div>
+            <div class="shopButton" style="margin-left:auto; margin-right:230px"><span>Продолжить</span></div>
+        </div>
+        <div class="checkoutBlock">
+            <div class="subinfo">
+                <span>Стоимость</span>
+                <span style="margin-left:15px">43400510$</span>
+            </div>
+            <div class="info">
+                <span>Конечная сумма</span>
+                <span style="color:black; margin-left:15px">4350000$</span>
+            </div>
+            <div class="line"></div>
+            <div class="checkoutButton"><span>Приобрести</span></div>
+        </div>
+
+        <div class="end">
+            <div class="wrap">
+                <div class="eLogo">
+                    <img src="images/logo.png" alt="plane">
+                    <p>ЗООМАГАЗИН "hот DOG"</p>
+                </div>
+                <span class="about"></span>
+                <span class="about"></span>
+            </div>
+            <div class="endMenu">
+                <span class="e1">Компания</span>
+                <span class="e2">Главная</span>
+                <span class="e2">Заказы</span>
+                <span class="e2">О нас</span>
+                <span class="e2">Как мы работаем</span>
+                <span class="e2">Контакты</span>
+            </div>
+            <div class="endMenu">
+                <span class="e1">Информация</span>
+                <span class="e2">Условия и положения</span>
+                <span class="e2">Рецепты</span>
+                <span class="e2">Как заказать</span>
+                <span class="e2">Как вернуть</span>
+                <span class="e2">Реклама</span>
+            </div>
+            <div class="endMenu">
+                <span class="e1">Категории животных</span>
+                <span class="e2">Экзотические</span>
+                <span class="e2">Редкие</span>
+                <span class="e2">Обычные</span>
+                <span class="e2">Живые</span>
+                <span class="e2">Экзотическая кухня</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">&#169; ЗООМАГАЗИН "HОТ DOG" Все права защищены</div>
+        <div class="images">
+            <img src="images/facebook.png" alt="facebook">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/in.png" alt="in">
+            <img src="images/p.png" alt="p">
+            <img src="images/google.png" alt="google">
+        </div>
+    </footer>
+</body>
+</html>
